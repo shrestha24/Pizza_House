@@ -3,6 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:padding="20dp"
+    android:background="@drawable/gradient2"
     >
 
     <LinearLayout
@@ -20,6 +21,8 @@
             android:layout_marginBottom="10dp"
             android:elevation="10dp"
             android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/gradient_background"
             android:textColorHighlight="@color/dark"
             android:padding="10dp"
 
@@ -33,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textColor="@color/dark"
+            android:textColorHint="#2C2B2B"
             android:background="@android:color/white"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
@@ -84,6 +88,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColorHint="#2C2B2B"
             android:background="@android:color/white"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
@@ -106,6 +111,7 @@
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/landmark"
+            android:textColorHint="#2C2B2B"
             android:inputType="textPostalAddress"
             android:elevation="8dp"
             android:padding="10dp"
@@ -121,6 +127,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@android:color/white"
+            android:textColorHint="#2C2B2B"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/zipcode"
@@ -132,14 +139,14 @@
             android:textSize="16sp" />
 
         <Button
-            android:textColor="@color/dark"
+            android:textColor="@color/white"
             android:id="@+id/btnOrder"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="@string/cod"
             android:elevation="@dimen/elevationCard"
             android:contentDescription="@string/cod"
-            android:background="@color/textonActionBar"
+            android:background="#E91E63"
             android:gravity="center"
             android:layout_gravity="center"
             android:layout_marginTop="40dp">

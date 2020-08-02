@@ -21,7 +21,7 @@
             <androidx.appcompat.widget.Toolbar
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/main_activity_toolbar_layout_height"
-                android:background="@color/background"
+                android:background="@color/colorAccent"
                 android:elevation="@dimen/elevation_appbar_layout">
 
                 <TextView
@@ -41,10 +41,9 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_marginTop="52dp"
-        android:background="@color/textonActionBar"
+        android:background="@drawable/gradient2"
         android:elevation="@dimen/elevationCard"
         android:orientation="vertical"
-
         android:padding="20dp">
 
 
@@ -53,15 +52,15 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-
-            android:background="@color/forefround"
+            android:textColorHint="#2C2B2B"
+            android:background="@color/white"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/name"
             android:inputType="textCapWords"
             android:padding="10dp"
             android:singleLine="true"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <View
@@ -74,15 +73,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
 
-            android:background="@color/forefround"
+            android:background="@color/white"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:singleLine="true"
-
-            android:textColorHint="@color/colorPrimaryDark"
+          android:textColor="@color/black"
+            android:textColorHint="#2C2B2B"
             android:textSize="16sp" />
 
         <View
@@ -95,15 +94,15 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-
-            android:background="@color/forefround"
+            android:textColorHint="#2C2B2B"
+            android:background="@color/white"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/phone"
             android:inputType="phone"
             android:padding="10dp"
             android:singleLine="true"
-            android:textColor="#030009"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <View
@@ -114,21 +113,22 @@
         <View
             android:layout_width="fill_parent"
             android:layout_height="1px"
-            android:background="@color/forefround" />
+            android:background="@color/white" />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@color/forefround"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/pass"
             android:inputType="textPassword"
             android:padding="10dp"
             android:singleLine="true"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/black"
+            android:textColorHint="#2C2B2B"
 
             android:textSize="16sp" />
 
@@ -141,16 +141,16 @@
             android:id="@+id/confirmPassword"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@color/forefround"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/cpass"
             android:inputType="textPassword"
             android:padding="10dp"
             android:singleLine="true"
-            android:textColor="@color/colorPrimaryDark"
-
+            android:textColor="@color/black"
+            android:textColorHint="#2C2B2B"
             android:textSize="16sp" />
 
         <Button
@@ -158,11 +158,11 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="@color/forefround"
+            android:background="@android:color/transparent"
             android:padding="3dp"
             android:text="@string/signup"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
     </LinearLayout>

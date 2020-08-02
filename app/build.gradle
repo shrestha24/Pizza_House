@@ -13,6 +13,17 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.debug
+    }
+    signingConfigs{
+        release {
+
+            storeFile file("$rootDir/key.jks")
+            storePassword 'shrestha24'
+            keyAlias 'key1'
+            keyPassword 'shrestha24'
+        }
+
     }
 
     buildTypes {
@@ -21,6 +32,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

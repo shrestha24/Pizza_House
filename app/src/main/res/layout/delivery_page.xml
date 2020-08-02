@@ -75,7 +75,7 @@
 
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/password1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -93,7 +93,7 @@
 
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/password2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -139,7 +139,7 @@
           android:layout_marginTop="40dp">
 
       </Button>
-
+ 
 
 
 
