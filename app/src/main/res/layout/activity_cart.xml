@@ -1,0 +1,99 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/coordinatorLayout"
+    android:layout_height="match_parent"
+    tools:context=".view.CartActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+
+        style="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/elevation_appbar_layout"
+        app:elevation="@dimen/elevation_appbar_layout">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="always"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_activity_toolbar_layout_height"
+                android:background="@color/background"
+                android:elevation="@dimen/elevation_appbar_layout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="@string/cart"
+                    android:textColor="@color/textonActionBar"
+                    android:textSize="@dimen/textsizeappbarlayout" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:minHeight="800dp"
+        android:layout_marginStart="@dimen/layoutmarginLeft"
+        android:layout_marginTop="@dimen/layoutmarginTop"
+        android:layout_marginEnd="@dimen/layoutmarginright" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_anchor="@id/recyclerView"
+        app:layout_anchorGravity="end|bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/forefround"
+            android:elevation="@dimen/elevation_appbar_layout"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/total"
+                android:textAlignment="center"
+                android:textSize="@dimen/textSizeTotal" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dollar"
+                android:textSize="@dimen/textSizeTotal" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnnext"
+            android:contentDescription="@string/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textSize="@dimen/detail_body_text_size" />
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "185675343032",
+    "firebase_url": "https://pizza-house-7253b.firebaseio.com",
+    "project_id": "pizza-house-7253b",
+    "storage_bucket": "pizza-house-7253b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185675343032:android:228bfd85ccd3551f03804d",
+        "android_client_info": {
+          "package_name": "com.example.pizza_house"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185675343032-8b41rc4r5da3q1ab4mckibi8p2m5fhkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVURvWESUTubIrHP5HGMPPVANSFplars4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185675343032-8b41rc4r5da3q1ab4mckibi8p2m5fhkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

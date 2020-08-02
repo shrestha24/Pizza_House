@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Pizza_House</string>
+    <string name="homeactivity">Home Activity</string>
+    <string name="gotocart">GO To Cart</string>
+    <string name="addtocart">Add to Cart</string>
+    <string name="signup">Signup</string>
+    <string name="signin">Signin</string>
+    <string name="cart">Cart </string>
+    <string name="deliverydetail">Delivery Detail</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="pass">Password</string>
+    <string name="cpass">Confirm Password</string>
+    <string name="total">Total :</string>
+    <string name="dollar">$</string>
+    <string name="qty">Qty :</string>
+    <string name="next">Next</string>
+    <string name="rate">Rate :</string>
+    <string name="remove">Remove</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="order">Order</string>
+    <string name="orderdetail">Order Details</string>
+    <string name="item">Pizza</string>
+    <string name="cod">Place Order\n(Cash On Delivery)</string>
+    <string name="login">Login</string>
+    <string name="createacc">Create Account</string>
+    <string name="succesfullyupload">SUCCESSFULLY UPLOADED</string>
+    <string name="orderplaced">Order Places And Ordered is Added To Widget</string>
+    <string name="emailreq">Email ID Required</string>
+    <string name="passreq">Password Required</string>
+    <string name="authfail">Authentication Failed</string>
+    <string name="nointernet">No Internet Connectivity</string>
+    <string name="zipcode">Zip Code</string>
+    <string name="landmark">Landmark</string>
+    <string name="address">Address</string>
+    <string name="signout">Signout</string>
+</resources>

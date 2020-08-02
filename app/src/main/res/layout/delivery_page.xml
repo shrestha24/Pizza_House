@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp"
+    android:background="@drawable/gradient2">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text=" Delivery Details "
+            android:elevation="10dp"
+            android:background="@drawable/gradient_background"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="FullName"
+            android:elevation="8dp"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Landmark"
+            android:inputType="textPostalAddress"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Zip code"
+            android:inputType="textPostalAddress"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+
+      <Button
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:text="Place Order\n(Cash On Delivery)"
+          android:elevation="10dp"
+          android:background="#E62C6B"
+          android:textColor="@color/white"
+          android:gravity="center"
+          android:layout_gravity="center"
+          android:layout_marginTop="40dp">
+
+      </Button>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

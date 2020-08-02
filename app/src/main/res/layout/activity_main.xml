@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="@dimen/elevation_appbar_layout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="always"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_activity_toolbar_layout_height"
+                android:elevation="@dimen/elevation_appbar_layout"
+                android:background="@color/background">
+                <TextView
+                    android:text="@string/homeactivity"
+                    android:textColor="@color/textonActionBar"
+                    android:fontFamily="cursive"
+                    android:textSize="@dimen/textsizeappbarlayout"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/layoutmarginright"
+        android:layout_marginLeft="@dimen/layoutmarginLeft"
+        android:layout_marginTop="@dimen/layoutmarginTop"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

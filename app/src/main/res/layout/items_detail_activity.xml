@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/cardRadius"
+    android:elevation="@dimen/margin"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/colorAccent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:cropToPadding="true"
+            android:layout_marginTop="5dp"
+            android:id="@+id/imageMain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"/>
+        <TextView
+            android:id="@+id/item_detail_title"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/description"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/price"
+                android:textSize="25sp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/spinner"
+                android:outlineAmbientShadowColor="@color/background"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/textsizeItemName"
+                android:layout_weight="0.5"/>
+            <Button
+                android:id="@+id/btnitemdetail"
+                android:layout_width="0dp"
+                android:elevation="4dp"
+                android:layout_weight="2"
+                android:text="@string/addtocart"
+                android:layout_height="@dimen/textsizeItemName"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

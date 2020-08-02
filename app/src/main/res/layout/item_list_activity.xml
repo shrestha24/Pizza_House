@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ListItemActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/activity_item_list_appbarLayout"
+        android:layout_width="match_parent"
+        android:elevation="@dimen/elevation_appbar_layout"
+        android:layout_height="@dimen/main_activity_toolbar_layout_height">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/activity_item_list_detail_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background">
+            <TextView
+                android:text="@string/item"
+                android:textColor="@color/textonActionBar"
+                android:fontFamily="cursive"
+                android:textSize="@dimen/textsizeappbarlayout"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/layoutmarginTop"
+        android:layout_marginLeft="@dimen/layoutmarginLeft"
+        android:layout_marginRight="@dimen/layoutmarginright"
+        android:id="@+id/listItemrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sharp_forward_24"
+        app:layout_anchor="@id/listItemrecycler"
+        app:layout_anchorGravity="bottom|right|end"
+        android:elevation="4dp"
+        android:onClick="fabButton"
+        android:contentDescription="@string/gotocart"
+        app:useCompatPadding="true"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
